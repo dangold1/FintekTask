@@ -1,0 +1,15 @@
+.app-content {
+    display: flex;
+    flex-direction:row;
+}
+
+.center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-content {
+        display: flex;
+        flex-direction:column;
+    }
+}

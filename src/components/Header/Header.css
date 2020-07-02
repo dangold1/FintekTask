@@ -1,0 +1,13 @@
+.logo {
+    font-size: 18px;
+    padding-left: 100px;
+    margin: 42px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 18px;
+        padding-left: 10px;
+        margin: 30px;
+    }
+}
